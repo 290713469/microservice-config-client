@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-config-client
+  cloud:
+    config:
+      profile: prod
+      uri: http://localhost:8888 #配置中心的地址
+server:
+  port: 8801
